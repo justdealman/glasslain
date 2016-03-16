@@ -1,39 +1,37 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-	<title>Гласслай</title>
+	<title>Гласслайн</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=1100, user-scalable=yes">
+	<meta name="viewport" content="width=1360, user-scalable=yes">
 	<!--<link href="./favicon.ico" rel="shortcut icon">-->
 	<link href="./css/style.css" rel="stylesheet">
 	<script src="./js/jquery.js"></script>
 	<!--[if IE 8]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 </head>
 <body>
 	<div class="wrapper">
 		<header>
-			<h5>г. Барнаул,  ул. Гоголя, 82,<br> офис 305-307, <a href="mailto:nata_17@list.ru">nata_17@list.ru</a></h5>
+			<img src="./img/logo.png" width="233" height="108" class="logo" alt="">
 			<p>Сотни реализованных проектов на территории Алтайского края и Сибири с 2006 года.</p>
 			<h3><a href="tel:+73852567220">+8 (3852) 567- 220</a></h3>
-			<img src="./img/logo.png" width="138" height="73" class="logo" alt="">
-		</header>
-		<nav>
-			<ul>
-				<li class="active"><a href="#"><span>О компании</span></a></li>
-				<li><a href="#"><span>Продукция</span></a></li>
-				<li><a href="#"><span>Выполненные<br> проекты</span></a></li>
-				<li><a href="#"><span>Фотогалерея</span></a></li>
-				<li><a href="#"><span>Контакты</span></a></li>
-			</ul>
-		</nav>
-		<section class="catalog-i">
-			<h2>Строка состояния...</h2>
+			<nav>
+				<ul>
+					<li class="active"><a href="#"><span>О компании</span></a></li>
+					<li><a href="#"><span>Продукция</span></a></li>
+					<li><a href="#"><span>Выполненные<br> проекты</span></a></li>
+					<li><a href="#"><span>Фотогалерея</span></a></li>
+					<li><a href="#"><span>Контакты</span></a></li>
+				</ul>
+			</nav>
 			<div>
 				<p><input type="text" placeholder="Поиск"></p>
 				<input type="submit" value="">
 			</div>
+		</header>
+		<section class="catalog-i">
 			<ul>
 				<li>
 					<a href="#">
@@ -88,34 +86,44 @@
 		<section class="about-i">
 			<h1>ГлассЛайн</h1>
 			<div class="core">
-				<p>ООО ” ГлассЛайн”- это производственно-монтажная компания, осуществляющая свою деятельность на рынке Алтайского края и Сибири с января 2006 года.<br>
-				Компания проектирует, производит и монтирует различные виды светопрозрачных конструкций:</p>
+				<p>ООО ”ГлассЛайн”- это производственно-монтажная компания, осуществляющая свою деятельность на рынке Алтайского края и Сибири с января 2006 года.</p>
+				<p>Компания проектирует, производит и монтирует различные виды светопрозрачных конструкций:</p>
 				<ul>
-					<li>входные группы ( в том числе автоматические )</li>
-					<li>офисные перегородки на основе алюминиевого профиля с различным заполнением ( стекло + другие материалы )</li>
+					<li>входные группы (в том числе автоматические)</li>
+					<li>офисные перегородки на основе алюминиевого профиля с различным заполнением (стекло + другие материалы)</li>
 					<li>цельностеклянные витрины и перегородки для торговых центров</li>
 					<li>двери в алюминиевой раме, цельностеклянные - распашные и раздвижные</li>
 					<li>душевые и сантехнические кабины различной конфигурации по размерам заказчика</li>
 					<li>лестничные ограждения с использованием нержавеющей трубы, закалённого стекла или триплекса</li>
 				</ul>
+				<p>Преимущества  работы с нами:</p>
+				<ul>
+					<li>солидный опыт работы в представленной сфере</li>
+					<li>индивидуальный подход к выполнению каждого проекта</li>
+					<li>работа как с корпоративными клиентами, так и с частными заказчиками</li>
+					<li>багаж уникальных технических решений, позволяющий избежать штампов в строительстве и ремонте, способствующий реализации самых смелых дизайнерских идей</li>
+					<li>гарантийное обслуживание установленных конструкций</li>
+				</ul>
+				<p>Специалистами компании реализованы проекты таких дизайнеров, как  Боженко Иван, Кульгачёв Алексей, Трофимов Дмитрий, Лиханова Наталья, Рубаненко Анна, Изергина Алёна, Остапенко Максим, Снегирёвы Владимир и Олеся, Кичигин Анатолий и других.</p>
 				<button>Далее</button>
 			</div>
 			<div class="controls">
-				<button>Заказать звонок</button>
-				<button>Вызвать замерщика</button>
+				<button data-target="call">Заказать звонок</button>
+				<button>Рассчитать стоимость</button>
+				<button data-target="measure">Вызвать замерщика</button>
 			</div>
 		</section>
 		<ul class="nav-b">
-			<li><a href="#">замер</a></li>
-			<li><a href="#">проектирование</a></li>
-			<li><a href="#">изготовление</a></li>
-			<li><a href="#">монтаж</a></li>
-			<li><a href="#">обслуживание</a></li>
+			<li><span>замер</span></li>
+			<li><span>проектирование</span></li>
+			<li><span>изготовление</span></li>
+			<li><span>монтаж</span></li>
+			<li><span>обслуживание</span></li>
 		</ul>
 		<div class="clear"></div>
 	</div>
 	<footer>
-		<img src="./img/logo_f.png" width="80" height="42" class="logo" alt="">
+		<img src="./img/logo_f.png" width="96" height="51" class="logo" alt="">
 		<h6>© CopyRight 2006-2016 glassline.alt.ru</h6>
 		<ul class="contacts">
 			<li class="address">
@@ -140,6 +148,23 @@
 			<li><a href="#">Контакты</a></li>
 		</ul>
 	</footer>
+	<div class="fade"></div>
+	<div class="modal" data-modal="call">
+		<h3>Заказать обратный звонок</h3>
+		<input type="text" placeholder="Ваше имя *">
+		<input type="text" placeholder="Телефон *">
+		<input type="text" placeholder="Удобное время для звонка">
+		<textarea cols="60" rows="6" placeholder="Комментарий"></textarea>
+		<button>Заказать звонок</button>
+	</div>
+	<div class="modal" data-modal="measure">
+		<h3>Вызов замерщика</h3>
+		<input type="text" placeholder="Ваше имя *">
+		<input type="text" placeholder="Телефон *">
+		<input type="text" placeholder="Удобное время для звонка">
+		<textarea cols="60" rows="6" placeholder="Комментарий"></textarea>
+		<button>Заказать звонок</button>
+	</div>
 	<script src="./js/dynamic.js"></script>
 </body>
 </html>
